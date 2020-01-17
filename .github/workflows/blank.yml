@@ -1,0 +1,13 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: ceo@gilchristiano.com
+    - name: Game design for SEGA Genesis and Tectoy Mega Drive
+      run: echo This repository is for book activities and sample files.
